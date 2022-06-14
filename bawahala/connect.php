@@ -1,9 +1,9 @@
 <?php
 
     $server = 'localhost';
-    $username = '';
+    $username = 'root';
     $password = '';
-    $db = '';
+    $db = 'ayiti_class_db';
 
     $conn = mysqli_connect($server, $username, $password, $db);
     
